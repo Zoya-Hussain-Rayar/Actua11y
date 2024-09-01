@@ -345,7 +345,6 @@ main{
     width: 180px;
     z-index: -1 ;
 }
-
 }
 
 @media (max-width: 800px) {
@@ -363,10 +362,39 @@ main{
         height: 350px;
         border-radius: 90px 0 90px 90px;
         object-fit: cover;
-        margin: 1em 0;
-    
-    
+        margin: 1em 0;    
     }
+    
+.yellow-flower{
+  position: absolute;
+  top: 18%;
+  left: 3%;
+  z-index: -1 ;
+
+}
+.orange-circle {
+  position: relative;
+  top: 60%;
+  left: 21%;
+  width: 125px;
+  height: 125px;
+  z-index: -1;
+}
+.purple-icon {
+  position: relative;
+  top: -120px;
+  left: 45%;
+  width: 180px;
+  z-index: -1 ;
+}
+}
+
+@media (max-width: 510px) {
+  .yellow-flower{
+    top: -120px;
+    left: 2%;
+
+  }
 }
 .about{
     width: 100%;
